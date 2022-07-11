@@ -1,8 +1,27 @@
 .App {
-  padding: 30px;
-  display: flex;
+    padding: 30px;
+    display: flex;
 }
 
 .App > div {
-  margin-right: 50px;
+    margin-right: 50px;
+}
+
+.isDone {
+    text-decoration: line-through;
+    color: indigo;
+    font-weight: bold;
+}
+
+.active {
+    background-color: indigo;
+    color: bisque;
+    font-weight: bold;
+    border: 4px solid indigo;
+    border-radius: 10%;
+}
+
+.error {
+    border: 2px solid crimson;
+    outline: none;
 }
