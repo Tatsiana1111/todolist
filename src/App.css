@@ -1,27 +1,24 @@
 .App {
-    padding: 30px;
-    display: flex;
+  padding: 30px;
+  display: flex;
 }
 
 .App > div {
-    margin-right: 50px;
-}
-
-.isDone {
-    text-decoration: line-through;
-    color: indigo;
-    font-weight: bold;
-}
-
-.active {
-    background-color: indigo;
-    color: bisque;
-    font-weight: bold;
-    border: 4px solid indigo;
-    border-radius: 10%;
+  margin-right: 50px;
 }
 
 .error {
-    border: 2px solid crimson;
-    outline: none;
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
 }
