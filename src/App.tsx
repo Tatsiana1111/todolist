@@ -60,7 +60,7 @@ function App() {
 
     function changeTaskTitle(todolistID: string, taskId: string, newTitle: string) {
         let todolistTasks = tasks[todolistID]
-        
+
         let task = todolistTasks.find(t => t.id === taskId)
         if (task) {
             task.title = newTitle
@@ -77,13 +77,21 @@ function App() {
         setTodolists(todolists.map((el => el.id === todolistID ? {...el, filter: value} : el)))
     }
 
-    const addTodolist = (title: string) => {
+    function addTodolist(title: string) {
         let todolist: TodolistsType = {id: v1(), title: title, filter: 'all'}
         setTodolists([todolist, ...todolists])
         setTasks({
             ...tasks,
             [todolist.id]: []
         })
+    }
+
+    function changeTodolistTitle(id: string, newTitle: string) {
+        let todolist = todolists.find(el => el.id === id)
+        if (todolist) {
+            todolist.title = newTitle
+            setTodolists([...todolists])
+        }
     }
 
     return (
@@ -99,6 +107,7 @@ function App() {
                 }
                 return (
                     <Todolist
+                        changeTodolistTitle={changeTodolistTitle}
                         changeTaskTitle={changeTaskTitle}
                         id={elem.id}
                         key={elem.id}
