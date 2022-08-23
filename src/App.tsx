@@ -9,8 +9,8 @@ import {Menu} from '@mui/icons-material';
 
 export type FilterValuesType = "all" | "active" | "completed";
 
-export type TodolistsType = { id: string, title: string, filter: FilterValuesType }
-type TasksStateType = {
+export type TodolistType = { id: string, title: string, filter: FilterValuesType }
+export type TasksStateType = {
     [key: string]: Array<TaskType>
 }
 
@@ -18,7 +18,7 @@ function App() {
     let todolistID1 = v1();
     let todolistID2 = v1();
 
-    let [todolists, setTodolists] = useState<Array<TodolistsType>>([
+    let [todolists, setTodolists] = useState<Array<TodolistType>>([
         {id: todolistID1, title: 'What to learn', filter: 'all'},
         {id: todolistID2, title: 'What to buy', filter: 'all'},
     ])
@@ -45,6 +45,28 @@ function App() {
         setTodolists(todolists.filter(elem => elem.id !== todolistID))
         delete tasks[todolistID]
     }
+
+    function changeFilter(todolistID: string, value: FilterValuesType) {
+        setTodolists(todolists.map((el => el.id === todolistID ? {...el, filter: value} : el)))
+    }
+
+    function addTodolist(title: string) {
+        let todolist: TodolistType = {id: v1(), title: title, filter: 'all'}
+        setTodolists([todolist, ...todolists])
+        setTasks({
+            ...tasks,
+            [todolist.id]: []
+        })
+    }
+
+    function changeTodolistTitle(id: string, newTitle: string) {
+        let todolist = todolists.find(el => el.id === id)
+        if (todolist) {
+            todolist.title = newTitle
+            setTodolists([...todolists])
+        }
+    }
+
 
     function removeTask(todolistID: string, taskID: string) {
 
@@ -73,27 +95,6 @@ function App() {
         //
         //     ...tasks, [todolistID]: tasks[todolistID].map(el => el.id === taskId ? {...el, title: newTitle} : el)
         // })
-    }
-
-    function changeFilter(todolistID: string, value: FilterValuesType) {
-        setTodolists(todolists.map((el => el.id === todolistID ? {...el, filter: value} : el)))
-    }
-
-    function addTodolist(title: string) {
-        let todolist: TodolistsType = {id: v1(), title: title, filter: 'all'}
-        setTodolists([todolist, ...todolists])
-        setTasks({
-            ...tasks,
-            [todolist.id]: []
-        })
-    }
-
-    function changeTodolistTitle(id: string, newTitle: string) {
-        let todolist = todolists.find(el => el.id === id)
-        if (todolist) {
-            todolist.title = newTitle
-            setTodolists([...todolists])
-        }
     }
 
     return (
