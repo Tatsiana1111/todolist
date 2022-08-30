@@ -20,8 +20,8 @@ type PropsType = {
     removeTask: (todolistID: string, taskId: string) => void
     changeFilter: (todolistID: string, value: FilterValuesType) => void
     addTask: (todolistID: string, title: string) => void
-    changeTaskStatus: (todolistID: string, taskId: string, isDone: boolean) => void
-    changeTaskTitle: (todolistID: string, taskId: string, newTitle: string) => void
+    changeTaskStatus: (taskId: string, isDone: boolean, todolistID: string) => void
+    changeTaskTitle: (taskId: string, newTitle: string, todolistID: string) => void
     filter: FilterValuesType
     removeTodolist: (todolistID: string) => void
     changeTodolistTitle: (id: string, newTitle: string) => void
@@ -51,12 +51,12 @@ export function Todolist(props: PropsType) {
         <div>
             {
                 props.tasks.map(t => {
-                    const onClickHandler = () => props.removeTask(props.todolistID, t.id)
+                    const onClickHandler = () => props.removeTask(t.id, props.todolistID)
                     const onChangeStatusHandler = (e: ChangeEvent<HTMLInputElement>) => {
-                        props.changeTaskStatus(props.todolistID, t.id, e.currentTarget.checked);
+                        props.changeTaskStatus(t.id, e.currentTarget.checked, props.todolistID);
                     }
                     const onChangeTitleHandler = (newValue: string) => {
-                        props.changeTaskTitle(props.id, t.id, newValue)
+                        props.changeTaskTitle(t.id, newValue, props.id)
                     }
                     return <div key={t.id} className={t.isDone ? "is-done" : ""}>
                         <Checkbox color={'secondary'}
