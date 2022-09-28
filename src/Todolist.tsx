@@ -1,4 +1,4 @@
-import React, {ChangeEvent} from 'react';
+import React, {ChangeEvent, useCallback} from 'react';
 import {FilterValuesType} from './App';
 import AddItemForm from "./AddItemForm";
 import {EditableSpan} from "./EditableSpan";
@@ -27,20 +27,28 @@ type PropsType = {
     changeTodolistTitle: (id: string, newTitle: string) => void
 }
 
-export function Todolist(props: PropsType) {
+export const Todolist = React.memo((props: PropsType) => {
+    console.log('Todolist called')
     const onAllClickHandler = () => props.changeFilter(props.todolistID, "all");
     const onActiveClickHandler = () => props.changeFilter(props.todolistID, "active");
     const onCompletedClickHandler = () => props.changeFilter(props.todolistID, "completed");
     const onClickRemoveHandler = () => {
         props.removeTodolist(props.todolistID)
     }
-    const addTask = (title: string) => {
+    const addTask = useCallback((title: string) => {
         props.addTask(title, props.id)
-    }
+    }, [])
     const changeTodolistTitle = (newTitle: string) => {
         props.changeTodolistTitle(props.id, newTitle)
     }
+    let tasksForTodolist = props.tasks
 
+    if (props.filter === "active") {
+        tasksForTodolist = props.tasks.filter(t => !t.isDone);
+    }
+    if (props.filter === "completed") {
+        tasksForTodolist = props.tasks.filter(t => t.isDone);
+    }
     return <div>
         <h3>
             <EditableSpan title={props.title} onChange={changeTodolistTitle}/>
@@ -80,5 +88,5 @@ export function Todolist(props: PropsType) {
             </Button>
         </div>
     </div>
-}
+})
 
