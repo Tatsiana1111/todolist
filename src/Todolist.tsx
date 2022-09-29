@@ -20,8 +20,8 @@ type PropsType = {
     removeTask: (todolistID: string, taskId: string) => void
     changeFilter: (todolistID: string, value: FilterValuesType) => void
     addTask: (todolistID: string, title: string) => void
-    changeTaskStatus: (taskId: string, isDone: boolean, todolistID: string) => void
-    changeTaskTitle: (taskId: string, newTitle: string, todolistID: string) => void
+    changeTaskStatus: (taskID: string, isDone: boolean, todolistID: string) => void
+    changeTaskTitle: (taskID: string, newTitle: string, todolistID: string) => void
     filter: FilterValuesType
     removeTodolist: (todolistID: string) => void
     changeTodolistTitle: (id: string, newTitle: string) => void
@@ -58,13 +58,13 @@ export const Todolist = React.memo((props: PropsType) => {
         <AddItemForm addItem={addTask}/>
         <div>
             {
-                props.tasks.map(t => {
+                tasksForTodolist.map(t => {
                     const onClickHandler = () => props.removeTask(t.id, props.todolistID)
                     const onChangeStatusHandler = (e: ChangeEvent<HTMLInputElement>) => {
                         props.changeTaskStatus(t.id, e.currentTarget.checked, props.todolistID);
                     }
                     const onChangeTitleHandler = (newValue: string) => {
-                        props.changeTaskTitle(t.id, newValue, props.id)
+                        props.changeTaskTitle(t.id, newValue, props.todolistID)
                     }
                     return <div key={t.id} className={t.isDone ? "is-done" : ""}>
                         <Checkbox color={'secondary'}

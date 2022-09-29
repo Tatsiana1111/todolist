@@ -21,7 +21,7 @@ export type TasksStateType = {
     [key: string]: Array<TaskType>
 }
 
-function AppWithReducers() {
+export function AppWithReducers() {
     let todolistID1 = v1();
     let todolistID2 = v1();
 
@@ -49,46 +49,38 @@ function AppWithReducers() {
 
 
     function removeTodolist(todolistID: string) {
-        const action = removeTodolistAC(todolistID)
-        dispatchToTodolistsReducer(action)
-        dispatchToTasksReducer(action)
+        dispatchToTodolistsReducer(removeTodolistAC(todolistID))
+        dispatchToTasksReducer(removeTodolistAC(todolistID))
     }
 
     function changeFilter(todolistID: string, value: FilterValuesType) {
-        const action = changeTodolistFilterAC(todolistID, value)
-        dispatchToTodolistsReducer(action)
+        dispatchToTodolistsReducer(changeTodolistFilterAC(todolistID, value))
     }
 
     function addTodolist(title: string) {
-        const action = addTodolistAC(title)
-        dispatchToTodolistsReducer(action)
-        dispatchToTasksReducer(action)
+        dispatchToTodolistsReducer(addTodolistAC(title))
+        dispatchToTasksReducer(addTodolistAC(title))
     }
 
     function changeTodolistTitle(id: string, newTitle: string) {
-        const action = changeTodolistTitleAC(id, newTitle)
-        dispatchToTodolistsReducer(action)
+        dispatchToTodolistsReducer(changeTodolistTitleAC(id, newTitle))
     }
 
 
     function removeTask(taskID: string, todolistID: string) {
-        const action = removeTaskAC(taskID, todolistID)
-        dispatchToTasksReducer(action)
+        dispatchToTasksReducer(removeTaskAC(taskID, todolistID))
     }
 
     function addTask(title: string, todolistID: string) {
-        const action = addTaskAC(title, todolistID)
-        dispatchToTasksReducer(action)
+        dispatchToTasksReducer(addTaskAC(title, todolistID))
     }
 
     function changeStatus(taskId: string, isDone: boolean, todolistID: string) {
-        const action = changeTaskStatusAC(taskId, isDone, todolistID)
-        dispatchToTasksReducer(action)
+        dispatchToTasksReducer(changeTaskStatusAC(taskId, isDone, todolistID))
     }
 
     function changeTaskTitle(taskId: string, newTitle: string, todolistID: string) {
-        const action = changeTaskTitleAC(taskId, newTitle, todolistID)
-        dispatchToTasksReducer(action)
+        dispatchToTasksReducer(changeTaskTitleAC(taskId, newTitle, todolistID))
     }
 
 
@@ -153,4 +145,3 @@ function AppWithReducers() {
 }
 
 
-export default AppWithReducers;
