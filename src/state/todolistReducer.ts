@@ -51,7 +51,6 @@ export const todolistReducer = (state: TodolistType[] = initialState, action: Ac
             return [...state]
         }
         case 'CHANGE-TODOLIST-FILTER': {
-            debugger
             let todolist = state.find(el => el.id === action.id)
             if (todolist) {
                 todolist.filter = action.filter
