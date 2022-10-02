@@ -27,7 +27,7 @@ const AddItemForm = React.memo((props: AddItemFormPropsType) => {
         } else {
             setError("Title is required");
         }
-    }, [])
+    }, [props.addItem, title.trim()])
     return (
         <div>
             <TextField label={'Enter text'}
