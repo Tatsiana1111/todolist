@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c901ada6-eb99-4576-8d9c-3f8c2a70c1d5" name="Changes" comment="lesson 11">
+    <list default="true" id="c901ada6-eb99-4576-8d9c-3f8c2a70c1d5" name="Changes" comment="lesson 11*">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/components/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/AppWithReducers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/AppWithReducers.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/AppWithRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/components/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/components/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/state/todolistReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/state/todolistReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/src/components/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/components/AddItemForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +133,7 @@
       <workItem from="1662290893290" duration="5169000" />
       <workItem from="1664348592121" duration="15635000" />
       <workItem from="1664433888813" duration="5901000" />
-      <workItem from="1664515162567" duration="7389000" />
+      <workItem from="1664515162567" duration="10490000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 8">
       <created>1660587534231</created>
@@ -189,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664472155136</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson 11*">
+      <created>1664649740182</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664649740182</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +215,7 @@
     <MESSAGE value="lesson 10-part2" />
     <MESSAGE value="lesson 10" />
     <MESSAGE value="lesson 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 11" />
+    <MESSAGE value="lesson 11*" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 11*" />
   </component>
 </project>
