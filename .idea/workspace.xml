@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="lesson 12">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="lesson 12*">
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +31,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DLUPHYedcIorsyJQ9J05AVjFNu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -66,7 +68,7 @@
       <recent name="D:\todolist\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.addItemForm">
+  <component name="RunManager" selected="npm.test:integration">
     <configuration name="addItemForm (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -125,10 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test:integration" />
         <item itemvalue="Jest.addItemForm" />
         <item itemvalue="npm.jest:integration" />
         <item itemvalue="Jest.addItemForm (1)" />
-        <item itemvalue="npm.test:integration" />
         <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
@@ -149,7 +151,7 @@
       <workItem from="1661362857407" duration="2394000" />
       <workItem from="1661451405384" duration="26000" />
       <workItem from="1664957293011" duration="1954000" />
-      <workItem from="1664959295923" duration="4558000" />
+      <workItem from="1664959295923" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 9-">
       <created>1661279259063</created>
@@ -179,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664961392683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson 12*">
+      <created>1664963988368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664963988368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,9 +206,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lesson 9-" />
     <MESSAGE value="lesson 9" />
     <MESSAGE value="lesson 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 12" />
+    <MESSAGE value="lesson 12*" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 12*" />
   </component>
 </project>
