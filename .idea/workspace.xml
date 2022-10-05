@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c901ada6-eb99-4576-8d9c-3f8c2a70c1d5" name="Changes" comment="lesson 11**">
-      <change afterPath="$PROJECT_DIR$/todolist/src/components/Task.tsx" afterDir="false" />
+    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="lesson 9">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/components/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/components/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/components/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/components/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/src/components/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/src/components/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +25,12 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/todolist" />
-    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2DLULQkZsODhdCcR6NK95TZe49y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2DLUPHYedcIorsyJQ9J05AVjFNu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,48 +40,42 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/todolist",
+    "last_opened_file_path": "D:/",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "D:/todolist/todolist/node_modules/react-scripts",
     "nodejs_package_manager_path": "yarn",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "D:\\todolist\\todolist\\node_modules\\typescript\\lib",
-    "ts.rename.search.for.dynamic.occurrences": "true",
+    "ts.external.directory.path": "D:\\todolist\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\todolist\todolist\src" />
       <recent name="D:\todolist\todolist\src\state" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\todolist\todolist\src\components" />
-    </key>
-    <key name="es6.move.members.recent.items">
-      <recent name="D:\todolist\todolist\src\components\Task.tsx" />
-    </key>
   </component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="correct todolist should be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.test:integration">
+    <configuration name="user reducer should increment only age" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/todolist/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$/todolist" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/todolist/src/state/todolistReducer.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/state/userReducer.test.ts" />
       <test-names>
-        <test-name value="correct todolist should be added" />
+        <test-name value="user reducer should increment only age" />
       </test-names>
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/todolist/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -94,8 +84,18 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/todolist/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="test" />
@@ -104,108 +104,59 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test:integration" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:integration" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
+        <item itemvalue="npm.test:integration" />
+        <item itemvalue="npm.storybook" />
         <item itemvalue="npm.start" />
-        <item itemvalue="Jest.correct todolist should be added" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Jest.user reducer should increment only age" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c901ada6-eb99-4576-8d9c-3f8c2a70c1d5" name="Changes" comment="" />
-      <created>1660477806737</created>
+      <changelist id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="" />
+      <created>1660477832443</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660477806737</updated>
-      <workItem from="1660477810870" duration="20000" />
-      <workItem from="1660498911208" duration="800000" />
-      <workItem from="1660581697971" duration="5882000" />
-      <workItem from="1660589799893" duration="4000" />
-      <workItem from="1660669429817" duration="26000" />
-      <workItem from="1660991780102" duration="373000" />
-      <workItem from="1661070637076" duration="7230000" />
-      <workItem from="1661086107105" duration="28000" />
-      <workItem from="1661609433229" duration="656000" />
-      <workItem from="1661879666657" duration="5148000" />
-      <workItem from="1661963006074" duration="6194000" />
-      <workItem from="1662056751357" duration="2617000" />
-      <workItem from="1662210686358" duration="7694000" />
-      <workItem from="1662226040121" duration="24000" />
-      <workItem from="1662278022541" duration="1150000" />
-      <workItem from="1662290893290" duration="5169000" />
-      <workItem from="1664348592121" duration="15635000" />
-      <workItem from="1664433888813" duration="5901000" />
-      <workItem from="1664515162567" duration="10737000" />
-      <workItem from="1664784136326" duration="79000" />
-      <workItem from="1664785195279" duration="3597000" />
+      <updated>1660477832443</updated>
+      <workItem from="1660477834009" duration="9824000" />
+      <workItem from="1660497238492" duration="12000" />
+      <workItem from="1661087108548" duration="3101000" />
+      <workItem from="1661272362991" duration="3453000" />
+      <workItem from="1661278816283" duration="534000" />
+      <workItem from="1661362857407" duration="2394000" />
+      <workItem from="1661451405384" duration="26000" />
+      <workItem from="1664957293011" duration="1954000" />
+      <workItem from="1664959295923" duration="1726000" />
     </task>
-    <task id="LOCAL-00001" summary="lesson 8">
-      <created>1660587534231</created>
+    <task id="LOCAL-00001" summary="lesson 9-">
+      <created>1661279259063</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1660587534231</updated>
+      <updated>1661279259063</updated>
     </task>
     <task id="LOCAL-00002" summary="lesson 9">
-      <created>1661880374252</created>
+      <created>1661365244471</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1661880374252</updated>
+      <updated>1661365244471</updated>
     </task>
-    <task id="LOCAL-00003" summary="lesson 10-part1">
-      <created>1661884844667</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1661884844667</updated>
-    </task>
-    <task id="LOCAL-00004" summary="lesson 10-part2">
-      <created>1661971770307</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1661971770308</updated>
-    </task>
-    <task id="LOCAL-00005" summary="lesson 10">
-      <created>1662060981419</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1662060981419</updated>
-    </task>
-    <task id="LOCAL-00006" summary="lesson 10">
-      <created>1664351043557</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664351043557</updated>
-    </task>
-    <task id="LOCAL-00007" summary="lesson 11">
-      <created>1664472155135</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1664472155136</updated>
-    </task>
-    <task id="LOCAL-00008" summary="lesson 11*">
-      <created>1664649740182</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1664649740182</updated>
-    </task>
-    <task id="LOCAL-00009" summary="lesson 11**">
-      <created>1664733146345</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1664733146345</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,14 +174,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson 8" />
+    <MESSAGE value="lesson 9-" />
     <MESSAGE value="lesson 9" />
-    <MESSAGE value="lesson 10-part1" />
-    <MESSAGE value="lesson 10-part2" />
-    <MESSAGE value="lesson 10" />
-    <MESSAGE value="lesson 11" />
-    <MESSAGE value="lesson 11*" />
-    <MESSAGE value="lesson 11**" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 11**" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 9" />
   </component>
 </project>
