@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/page.css" afterDir="false" />
-    </list>
+    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: changes 13 lesson" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,8 +65,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666342749601</updated>
-      <workItem from="1666342757859" duration="369000" />
+      <workItem from="1666342757859" duration="699000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: changes 13 lesson">
+      <created>1666343243352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666343243352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,10 +85,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: changes 13 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: changes 13 lesson" />
   </component>
 </project>
