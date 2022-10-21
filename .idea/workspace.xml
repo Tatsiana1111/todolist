@@ -4,46 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: changes 13 lesson">
-      <change afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
+    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: changes 13 lesson plus style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithReducers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppWithReducers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithRedux.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppWithRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddItemForm.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditableSpan.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Task.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Task.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-tasks-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ReduxStoreProviderDecorator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/colors.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/direction.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/flow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/plugin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/repo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/todo14v2",
+    "last_opened_file_path": "D:/samurai-way-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666342749601</updated>
-      <workItem from="1666342757859" duration="4246000" />
+      <workItem from="1666342757859" duration="14787000" />
     </task>
     <task id="LOCAL-00001" summary="feat: changes 13 lesson">
       <created>1666343243352</created>
@@ -133,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666343535896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: changes 13 lesson plus style">
+      <created>1666348431144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666348431144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: changes 13 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: changes 13 lesson" />
+    <MESSAGE value="feat: changes 13 lesson plus style" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: changes 13 lesson plus style" />
   </component>
 </project>
