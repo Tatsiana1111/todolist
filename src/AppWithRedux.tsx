@@ -11,7 +11,7 @@
 //     changeTodolistTitleAC,
 //     removeTodolistAC
 // } from "./state/todolistReducer";
-// import {addTaskAC, changeTaskStatusAC, changeTaskTitleAC, removeTaskAC} from "./state/tasksReducer";
+// import {addTaskAC, updateTaskAC, changeTaskTitleAC, removeTaskAC} from "./state/tasksReducer";
 // import {useDispatch, useSelector} from "react-redux";
 // import {AppRootStateType} from "./state/store";
 //
@@ -55,7 +55,7 @@
 //     }, [dispatch])
 //
 //     const changeStatus = useCallback((taskId: string, isDone: boolean, todolistID: string) => {
-//         dispatch(changeTaskStatusAC(taskId, isDone, todolistID))
+//         dispatch(updateTaskAC(taskId, isDone, todolistID))
 //     }, [dispatch])
 //
 //     const changeTaskTitle = useCallback((taskId: string, newTitle: string, todolistID: string) => {

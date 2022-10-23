@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: add 3 thunk creators 14 lesson">
+    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: add 5 thunk creators 14 lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppWithReducers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppWithReducers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppWithRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666342749601</updated>
       <workItem from="1666342757859" duration="15014000" />
-      <workItem from="1666445100332" duration="6719000" />
+      <workItem from="1666445100332" duration="6801000" />
+      <workItem from="1666520735035" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="feat: changes 13 lesson">
       <created>1666343243352</created>
@@ -113,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666390301816</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add 5 thunk creators 14 lesson">
+      <created>1666471204502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666471204502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,7 @@
     <MESSAGE value="feat: changes 13 lesson" />
     <MESSAGE value="feat: changes 13 lesson plus style" />
     <MESSAGE value="feat: add 3 thunk creators 14 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add 3 thunk creators 14 lesson" />
+    <MESSAGE value="feat: add 5 thunk creators 14 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add 5 thunk creators 14 lesson" />
   </component>
 </project>

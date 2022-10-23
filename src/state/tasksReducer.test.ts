@@ -1,4 +1,4 @@
-// import {addTaskAC, changeTaskStatusAC, changeTaskTitleAC, removeTaskAC} from "./tasksReducer";
+// import {addTaskAC, updateTaskAC, changeTaskTitleAC, removeTaskAC} from "./tasksReducer";
 //
 // import {tasksReducer} from './tasksReducer'
 // import {TasksStateType} from '../App'
@@ -73,7 +73,7 @@
 //         ]
 //     }
 //
-//     const action = changeTaskStatusAC('2', false, 'todolistID2')
+//     const action = updateTaskAC('2', false, 'todolistID2')
 //
 //     const endState = tasksReducer(startState, action)
 //
