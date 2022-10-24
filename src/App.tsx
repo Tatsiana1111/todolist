@@ -12,22 +12,18 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import {Menu} from '@mui/icons-material';
 import {
-    addTodolistAC, addTodolistsTC,
+    addTodolistsTC,
     changeTodolistFilterAC,
-    changeTodolistTitleAC, fetchTodolistsTC,
+    fetchTodolistsTC,
     FilterValuesType,
-    removeTodolistAC, removeTodolistsTC,
-    TodolistDomainType, updateTodolistTitleTC
+    removeTodolistsTC,
+    TodolistDomainType,
+    updateTodolistTitleTC
 } from './state/todolistReducer'
-import {
-    addTaskAC, addTaskTC,
-    updateTaskAC,
-    changeTaskTitleAC,
-    removeTaskAC, removeTaskTC, updateTaskTC,
-} from './state/tasksReducer';
+import {addTaskTC, removeTaskTC, updateTaskTC,} from './state/tasksReducer';
 import {useDispatch, useSelector} from 'react-redux';
 import {AppRootStateType} from './state/store';
-import {TaskStatuses, TaskType, todolistsAPI} from './api/todolists-api'
+import {TaskStatuses, TaskType} from './api/todolists-api'
 import {AnyAction} from "redux";
 import {ThunkDispatch} from "redux-thunk";
 

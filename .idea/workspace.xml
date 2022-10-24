@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: add 5 thunk creators 14 lesson">
+    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: full lesson 14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithReducers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppWithReducers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppWithRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/api/todolists-api.ts" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/state/tasksReducer.ts" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/state/todolistReducer.ts" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,9 +54,12 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/samurai-way-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/todolist/node_modules/react-scripts&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
@@ -59,7 +67,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test">
+    <configuration name="user reducer should increment only age" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/userReducer.test.ts" />
+      <test-names>
+        <test-name value="user reducer should increment only age" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -70,9 +91,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Jest.user reducer should increment only age" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +119,8 @@
       <updated>1666342749601</updated>
       <workItem from="1666342757859" duration="15014000" />
       <workItem from="1666445100332" duration="6801000" />
-      <workItem from="1666520735035" duration="1271000" />
+      <workItem from="1666520735035" duration="10268000" />
+      <workItem from="1666592008878" duration="2416000" />
     </task>
     <task id="LOCAL-00001" summary="feat: changes 13 lesson">
       <created>1666343243352</created>
@@ -123,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666471204502</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: full lesson 14">
+      <created>1666522048228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666522048228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +198,7 @@
     <MESSAGE value="feat: changes 13 lesson plus style" />
     <MESSAGE value="feat: add 3 thunk creators 14 lesson" />
     <MESSAGE value="feat: add 5 thunk creators 14 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add 5 thunk creators 14 lesson" />
+    <MESSAGE value="feat: full lesson 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: full lesson 14" />
   </component>
 </project>
