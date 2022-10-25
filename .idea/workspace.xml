@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: full lesson 14">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: full lesson 14" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +111,7 @@
       <workItem from="1666445100332" duration="6801000" />
       <workItem from="1666520735035" duration="10268000" />
       <workItem from="1666592008878" duration="2416000" />
+      <workItem from="1666701847965" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="feat: changes 13 lesson">
       <created>1666343243352</created>
