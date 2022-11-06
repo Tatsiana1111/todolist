@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a461f70-2d44-4c09-9763-3ad38b64657b" name="Changes" comment="feat: add lesson 15 ***part">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" afterDir="false" />
-    </list>
+    <list default="true" id="8a461f70-2d44-4c09-9763-3ad38b64657b" name="Changes" comment="feat: lesson 15 full" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +83,7 @@
       <workItem from="1667540932074" duration="704000" />
       <workItem from="1667568578610" duration="707000" />
       <workItem from="1667656218078" duration="10253000" />
-      <workItem from="1667739219540" duration="9911000" />
+      <workItem from="1667739219540" duration="10442000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add lesson 15 *part">
       <created>1667475767402</created>
@@ -120,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667677139044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: lesson 15 full">
+      <created>1667765776303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667765776303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +141,7 @@
     <MESSAGE value="feat: add lesson 15 *part" />
     <MESSAGE value="feat: add lesson 15 **part" />
     <MESSAGE value="feat: add lesson 15 ***part" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add lesson 15 ***part" />
+    <MESSAGE value="feat: lesson 15 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 15 full" />
   </component>
 </project>
