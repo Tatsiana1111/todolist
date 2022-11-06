@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="feat: changes 13 lesson plus style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasksReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasksReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolistReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolistReducer.ts" afterDir="false" />
-    </list>
+    <list default="true" id="8a461f70-2d44-4c09-9763-3ad38b64657b" name="Changes" comment="feat: lesson 15 full" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -31,35 +24,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/api/todolists-api.ts" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GRDwoLIVhhE15FhtJtHfKYESrW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2GisfOyIuxZxuKGmPxsLKTFjLqt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/samurai-way-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "ts.external.directory.path": "D:\\todolist\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/todolist&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\todolist\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -80,35 +69,58 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a546dac9-5d15-4036-9c3c-c09cbfb94e2c" name="Changes" comment="" />
-      <created>1666342749601</created>
+      <changelist id="8a461f70-2d44-4c09-9763-3ad38b64657b" name="Changes" comment="" />
+      <created>1666882840992</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666342749601</updated>
-      <workItem from="1666342757859" duration="14787000" />
+      <updated>1666882840992</updated>
+      <workItem from="1666882843927" duration="3674000" />
+      <workItem from="1667462928065" duration="3935000" />
+      <workItem from="1667475014686" duration="7000" />
+      <workItem from="1667475467637" duration="10875000" />
+      <workItem from="1667504037536" duration="36000" />
+      <workItem from="1667504307566" duration="1628000" />
+      <workItem from="1667540932074" duration="704000" />
+      <workItem from="1667568578610" duration="707000" />
+      <workItem from="1667656218078" duration="10253000" />
+      <workItem from="1667739219540" duration="10442000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: changes 13 lesson">
-      <created>1666343243352</created>
+    <task id="LOCAL-00001" summary="feat: add lesson 15 *part">
+      <created>1667475767402</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1666343243352</updated>
+      <updated>1667475767402</updated>
     </task>
-    <task id="LOCAL-00002" summary="feat: changes 13 lesson">
-      <created>1666343535896</created>
+    <task id="LOCAL-00002" summary="feat: add lesson 15 **part">
+      <created>1667503632038</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1666343535896</updated>
+      <updated>1667503632038</updated>
     </task>
-    <task id="LOCAL-00003" summary="feat: changes 13 lesson plus style">
-      <created>1666348431144</created>
+    <task id="LOCAL-00003" summary="feat: add lesson 15 ***part">
+      <created>1667677102449</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1666348431144</updated>
+      <updated>1667677102449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add lesson 15 ***part">
+      <created>1667677139044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667677139044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: lesson 15 full">
+      <created>1667765776303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667765776303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,27 +131,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: changes 13 lesson" />
-    <MESSAGE value="feat: changes 13 lesson plus style" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: changes 13 lesson plus style" />
+    <MESSAGE value="feat: add lesson 15 *part" />
+    <MESSAGE value="feat: add lesson 15 **part" />
+    <MESSAGE value="feat: add lesson 15 ***part" />
+    <MESSAGE value="feat: lesson 15 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 15 full" />
   </component>
 </project>
