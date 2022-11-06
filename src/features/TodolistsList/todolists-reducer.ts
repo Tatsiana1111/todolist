@@ -55,9 +55,16 @@ export const fetchTodolistsTC = () => {
         dispatch(setAppStatusAC('loading'))
         todolistsAPI.getTodolists()
             .then((res) => {
-                dispatch(setTodolistsAC(res.data))
-                dispatch(setAppStatusAC('succeeded'))
-            })
+                if (res.data) {
+                    dispatch(setTodolistsAC(res.data))
+                    dispatch(setAppStatusAC('succeeded'))
+                } else {
+                    handleServerAppError(dispatch, res.data)
+                }
+            }).catch((e: AxiosError) => {
+            handleServerNetworkError(dispatch, e)
+        })
+
     }
 }
 
@@ -73,7 +80,6 @@ export const removeTodolistTC = (todolistId: string) => {
                 } else {
                     handleServerAppError(dispatch, res.data)
                 }
-
             }).catch((e: AxiosError) => {
             handleServerNetworkError(dispatch, e)
             dispatch(changeTodolistEntityStatusAC(todolistId, 'idle'))
@@ -89,14 +95,12 @@ export const addTodolistTC = (title: string) => {
                     dispatch(addTodolistAC(res.data.data.item))
                     dispatch(setAppStatusAC('succeeded'))
                 } else {
-                    if (res.data.messages.length) {
-                        dispatch(setAppErrorAC(res.data.messages[0]))
-                    } else {
-                        dispatch(setAppErrorAC('Some error!'))
-                    }
-                    dispatch(setAppStatusAC('failed'))
+                    handleServerAppError(dispatch, res.data)
                 }
-            })
+            }).catch((e: AxiosError) => {
+            handleServerNetworkError(dispatch, e)
+            //dispatch(changeTodolistEntityStatusAC( , 'failed'))
+        })
     }
 }
 export const changeTodolistTitleTC = (id: string, title: string) => {
@@ -104,9 +108,16 @@ export const changeTodolistTitleTC = (id: string, title: string) => {
         dispatch(setAppStatusAC('loading'))
         todolistsAPI.updateTodolist(id, title)
             .then((res) => {
-                dispatch(changeTodolistTitleAC(id, title))
-                dispatch(setAppStatusAC('succeeded'))
-            })
+                if (res.data.resultCode === 0) {
+                    dispatch(changeTodolistTitleAC(id, title))
+                    dispatch(setAppStatusAC('succeeded'))
+                } else {
+                    handleServerAppError(dispatch, res.data)
+                }
+            }).catch((e: AxiosError) => {
+            handleServerNetworkError(dispatch, e)
+            dispatch(changeTodolistEntityStatusAC(id, 'failed'))
+        })
     }
 }
 
