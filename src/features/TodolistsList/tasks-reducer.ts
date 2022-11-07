@@ -7,7 +7,7 @@ import {
 import {TaskPriorities, TaskStatuses, TaskType, todolistsAPI, UpdateTaskModelType} from '../../api/todolists-api'
 import {Dispatch} from 'redux'
 import {AppRootStateType} from '../../app/store'
-import {setAppErrorAC, SetAppErrorACType, setAppStatusAC, SetAppStatusACType} from "../../app/app-reducer";
+import {SetAppErrorACType, setAppStatusAC, SetAppStatusACType} from "../../app/app-reducer";
 import axios, {AxiosError} from "axios";
 import {handleServerAppError, handleServerNetworkError} from "../../utils/error-utils";
 
