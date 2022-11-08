@@ -7,7 +7,7 @@ import {
 import {TaskPriorities, TaskStatuses, TaskType, todolistsAPI, UpdateTaskModelType} from '../../api/todolists-api'
 import {Dispatch} from 'redux'
 import {AppRootStateType} from '../../app/store'
-import {SetAppErrorACType, setAppStatusAC, SetAppStatusACType} from "../../app/app-reducer";
+import {SetAppErrorActionType, setAppStatusAC, SetAppStatusActionType} from "../../app/app-reducer";
 import axios, {AxiosError} from "axios";
 import {handleServerAppError, handleServerNetworkError} from "../../utils/error-utils";
 
@@ -66,10 +66,10 @@ export const fetchTasksTC = (todolistId: string) => (dispatch: Dispatch<ActionsT
                 dispatch(action)
                 dispatch(setAppStatusAC('succeeded'))
             } else {
-                handleServerAppError(dispatch, res.data.items)
+                handleServerAppError(res.data.items, dispatch)
             }
         }).catch((error: AxiosError) => {
-        handleServerNetworkError(dispatch, error)
+        handleServerNetworkError(error, dispatch)
         dispatch(changeTodolistEntityStatusAC(todolistId, 'failed'))
     })
 }
@@ -82,7 +82,7 @@ export const removeTaskTC = (taskId: string, todolistId: string) => async (dispa
             dispatch(action)
             dispatch(setAppStatusAC('succeeded'))
         } else {
-            handleServerAppError(dispatch, res.data)
+            handleServerAppError(res.data, dispatch)
         }
     } catch (e) {
         const err = e as Error | AxiosError
@@ -103,10 +103,10 @@ export const addTaskTC = (title: string, todolistId: string) => (dispatch: Dispa
                 dispatch(addTaskAC(task))
                 dispatch(setAppStatusAC('succeeded'))
             } else {
-                handleServerAppError(dispatch, res.data)
+                handleServerAppError(res.data, dispatch)
             }
         }).catch((error: AxiosError) => {
-        handleServerNetworkError(dispatch, error)
+        handleServerNetworkError(error, dispatch)
         dispatch(changeTodolistEntityStatusAC(todolistId, 'failed'))
     })
 }
@@ -138,7 +138,7 @@ export const updateTaskTC = (taskId: string, domainModel: UpdateDomainTaskModelT
                     dispatch(action)
                     dispatch(setAppStatusAC('succeeded'))
                 } else {
-                    handleServerAppError(dispatch, res.data)
+                    handleServerAppError(res.data, dispatch)
                 }
             }).catch((e: AxiosError) => {
 
@@ -146,7 +146,7 @@ export const updateTaskTC = (taskId: string, domainModel: UpdateDomainTaskModelT
                 ? (e.response.data as { error: string }).error
                 : e.message
 
-            handleServerNetworkError(dispatch, {message: e.message})
+            handleServerNetworkError({message: e.message}, dispatch)
         })
     }
 
@@ -170,4 +170,4 @@ type ActionsType =
     | RemoveTodolistActionType
     | SetTodolistsActionType
     | ReturnType<typeof setTasksAC>
-    | SetAppStatusACType | SetAppErrorACType | ReturnType<typeof changeTodolistEntityStatusAC>
+    | SetAppStatusActionType | SetAppErrorActionType | ReturnType<typeof changeTodolistEntityStatusAC>
