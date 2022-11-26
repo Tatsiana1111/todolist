@@ -1,7 +1,7 @@
 import {setIsLoggedInAC} from "../features/Login/auth-reducer";
-import {Dispatch} from "redux";
 import {authAPI, StatusCode} from "../api/todolists-api";
 import {handleServerAppError, handleServerNetworkError} from "../utils/error-utils";
+import {AppThunk} from "./store";
 
 const initialState: InitialStateType = {
     status: 'idle',
@@ -9,7 +9,7 @@ const initialState: InitialStateType = {
     isInitialized: false
 }
 
-export const appReducer = (state: InitialStateType = initialState, action: ActionsType): InitialStateType => {
+export const appReducer = (state: InitialStateType = initialState, action: AppReducerActionsType): InitialStateType => {
     switch (action.type) {
         case 'APP/SET-STATUS':
             return {...state, status: action.status}
@@ -24,7 +24,7 @@ export const appReducer = (state: InitialStateType = initialState, action: Actio
 
 
 //thunks
-export const initializeAppTC = () => (dispatch: Dispatch) => {
+export const initializeAppTC = (): AppThunk => (dispatch) => {
     authAPI.me().then(res => {
         if (res.data.resultCode === StatusCode.Ok) {
             dispatch(setIsLoggedInAC(true));
@@ -56,7 +56,7 @@ export type SetAppErrorActionType = ReturnType<typeof setAppErrorAC>
 export type SetAppStatusActionType = ReturnType<typeof setAppStatusAC>
 export type SetInitializedActionType = ReturnType<typeof setIsInitializedAC>
 
-type ActionsType =
+export type AppReducerActionsType =
     | SetAppErrorActionType
     | SetAppStatusActionType
     | SetInitializedActionType

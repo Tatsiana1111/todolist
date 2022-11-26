@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a461f70-2d44-4c09-9763-3ad38b64657b" name="Changes" comment="feat: lesson 16 add formik/react-router-dom">
-      <change afterPath="$PROJECT_DIR$/src/components/PageNotFound/PageNotFound.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageNotFound/PageNotFound.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Login/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Login/auth-reducer.ts" afterDir="false" />
+    <list default="true" id="8a461f70-2d44-4c09-9763-3ad38b64657b" name="Changes" comment="feat: lesson 16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Login/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Login/auth-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/error-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/error-utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/todolist",
+    "last_opened_file_path": "D:/todo16v2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,7 +95,32 @@
       <workItem from="1667656218078" duration="10253000" />
       <workItem from="1667739219540" duration="10957000" />
       <workItem from="1667829078278" duration="2540000" />
-      <workItem from="1667938907412" duration="1117000" />
+      <workItem from="1667938907412" duration="1233000" />
+      <workItem from="1667985929232" duration="1019000" />
+      <workItem from="1667996585507" duration="519000" />
+      <workItem from="1667998203216" duration="62000" />
+      <workItem from="1668065279176" duration="3251000" />
+      <workItem from="1668072959017" duration="2606000" />
+      <workItem from="1668101640906" duration="1327000" />
+      <workItem from="1668264345000" duration="565000" />
+      <workItem from="1668424323601" duration="3808000" />
+      <workItem from="1668492325212" duration="611000" />
+      <workItem from="1668493220974" duration="8773000" />
+      <workItem from="1668576346548" duration="4246000" />
+      <workItem from="1668606521886" duration="193000" />
+      <workItem from="1668618531646" duration="3223000" />
+      <workItem from="1668672215307" duration="7848000" />
+      <workItem from="1668693452268" duration="601000" />
+      <workItem from="1668710602478" duration="1972000" />
+      <workItem from="1668758754690" duration="683000" />
+      <workItem from="1668777497855" duration="645000" />
+      <workItem from="1668883404788" duration="631000" />
+      <workItem from="1669017499153" duration="2754000" />
+      <workItem from="1669037220662" duration="5462000" />
+      <workItem from="1669102980658" duration="3351000" />
+      <workItem from="1669123203321" duration="903000" />
+      <workItem from="1669186796470" duration="6000" />
+      <workItem from="1669282688003" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add lesson 15 *part">
       <created>1667475767402</created>
@@ -154,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667837362384</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: lesson 16">
+      <created>1667940100498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667940100498</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +201,7 @@
     <MESSAGE value="feat: add lesson 15 ***part" />
     <MESSAGE value="feat: lesson 15 full" />
     <MESSAGE value="feat: lesson 16 add formik/react-router-dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 16 add formik/react-router-dom" />
+    <MESSAGE value="feat: lesson 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 16" />
   </component>
 </project>
