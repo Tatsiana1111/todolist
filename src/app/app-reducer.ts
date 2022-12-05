@@ -27,7 +27,7 @@ export const appReducer = (state: InitialStateType = initialState, action: AppRe
 export const initializeAppTC = (): AppThunk => (dispatch) => {
     authAPI.me().then(res => {
         if (res.data.resultCode === StatusCode.Ok) {
-            dispatch(setIsLoggedInAC(true));
+            dispatch(setIsLoggedInAC({value: true}));
             dispatch(setIsInitializedAC(true))
         } else {
             handleServerAppError(res.data, dispatch)
