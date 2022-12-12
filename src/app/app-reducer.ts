@@ -4,6 +4,8 @@ import {handleServerAppError, handleServerNetworkError} from "../utils/error-uti
 import {Dispatch} from "redux";
 import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 
+
+export type InitialAppStateType = typeof initialState
 const initialState = {
     status: 'idle' as RequestStatusType,
     error: null as null | string,

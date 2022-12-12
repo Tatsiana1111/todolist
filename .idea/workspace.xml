@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="lesson 17 full">
+    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="fix(lesson 18):  full lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-tasks-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +68,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\todolist\src\app" />
+      <recent name="D:\todolist\src\features\TodolistsList" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -142,7 +155,8 @@
       <workItem from="1670309457062" duration="17170000" />
       <workItem from="1670392408745" duration="4002000" />
       <workItem from="1670430517769" duration="30000" />
-      <workItem from="1670504327239" duration="351000" />
+      <workItem from="1670504327239" duration="612000" />
+      <workItem from="1670830438166" duration="3229000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add lesson 15 *part">
       <created>1667475767402</created>
@@ -214,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670398084654</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat(lesson 18): add test files">
+      <created>1670504932108</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670504932108</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +262,8 @@
     <MESSAGE value="lesson 17 first part" />
     <MESSAGE value="lesson 17 3 part" />
     <MESSAGE value="lesson 17 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 17 full" />
+    <MESSAGE value="feat(lesson 18): add test files" />
+    <MESSAGE value="fix(lesson 18):  full lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(lesson 18):  full lesson" />
   </component>
 </project>
