@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="fix(lesson 18):  full lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Login/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Login/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-tasks-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2GisfOyIuxZxuKGmPxsLKTFjLqt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,15 +55,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "CONST",
     "last_opened_file_path": "D:/todolist",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/todolist/node_modules/react-scripts",
     "nodejs_package_manager_path": "yarn",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "terminal",
     "ts.external.directory.path": "D:\\todolist\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -74,7 +77,20 @@
       <recent name="D:\todolist\src\features\TodolistsList" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Jest.tasks should be added for todolist">
+    <configuration name="tasks should be added for todolist" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" />
+      <test-names>
+        <test-name value="tasks should be added for todolist" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -97,9 +113,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.tasks should be added for todolist" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -157,6 +174,9 @@
       <workItem from="1670430517769" duration="30000" />
       <workItem from="1670504327239" duration="612000" />
       <workItem from="1670830438166" duration="3229000" />
+      <workItem from="1670865263656" duration="6000" />
+      <workItem from="1671360349433" duration="276000" />
+      <workItem from="1671443978807" duration="9370000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add lesson 15 *part">
       <created>1667475767402</created>
