@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="fix(lesson 18):  full lesson">
+    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="fix(lesson 19):  first part thunk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Login/Login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/Login/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Login/auth-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "D:/todolist",
+    "last_opened_file_path": "D:/сards",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -113,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.tasks should be added for todolist" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Jest.tasks should be added for todolist" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
@@ -176,7 +174,8 @@
       <workItem from="1670830438166" duration="3229000" />
       <workItem from="1670865263656" duration="6000" />
       <workItem from="1671360349433" duration="276000" />
-      <workItem from="1671443978807" duration="9370000" />
+      <workItem from="1671443978807" duration="10014000" />
+      <workItem from="1671524817199" duration="6280000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add lesson 15 *part">
       <created>1667475767402</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670504932108</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix(lesson 19):  first part thunk">
+      <created>1671468986621</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671468986621</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +290,7 @@
     <MESSAGE value="lesson 17 full" />
     <MESSAGE value="feat(lesson 18): add test files" />
     <MESSAGE value="fix(lesson 18):  full lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(lesson 18):  full lesson" />
+    <MESSAGE value="fix(lesson 19):  first part thunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(lesson 19):  first part thunk" />
   </component>
 </project>

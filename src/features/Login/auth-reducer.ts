@@ -3,6 +3,7 @@ import {authAPI, LoginParamsType, StatusCode} from "../../api/todolists-api";
 import {handleServerAppError, handleServerNetworkError} from "../../utils/error-utils";
 import {createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
 import {Dispatch} from "redux";
+import {AxiosError} from "axios";
 
 
 export const loginTC = createAsyncThunk('auth/login', async (param: LoginParamsType, thunkAPI) => {
@@ -10,12 +11,16 @@ export const loginTC = createAsyncThunk('auth/login', async (param: LoginParamsT
     const res = await authAPI.login(param)
     try {
         if (res.data.resultCode === StatusCode.Ok) {
-            thunkAPI.dispatch(setIsLoggedInAC({value: true}))
+            return {isLoggedIn: true}
         } else {
             handleServerAppError(res.data, thunkAPI.dispatch);
+            return thunkAPI.rejectWithValue({errors: res.data.messages, fieldsError: res.data.fieldsErrors})
         }
-    } catch (error: any) {
+    } catch (err) {
+        // @ts-ignore
+        const error: AxiosError = err
         handleServerNetworkError(error, thunkAPI.dispatch)
+        return thunkAPI.rejectWithValue({errors: [error.message], fieldsError: undefined})
     } finally {
         thunkAPI.dispatch(setAppStatusAC({status: 'idle'}))
     }
@@ -33,6 +38,11 @@ const slice = createSlice({
             state.isLoggedIn = action.payload.value
         }
     },
+    extraReducers: builder => {
+        builder.addCase(loginTC.fulfilled, (state, action) => {
+            state.isLoggedIn = action.payload.isLoggedIn
+        })
+    }
 })
 
 export const authReducer = slice.reducer
