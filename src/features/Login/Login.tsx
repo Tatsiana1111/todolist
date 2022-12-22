@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 import {FormikHelpers, FormikValues, useFormik} from "formik";
 import {loginTC} from "./auth-reducer";
 import {useDispatch, useSelector} from "react-redux";
-import {AppRootStateType} from "../../app/store";
+import {AppDispatch, AppRootStateType, useAppDispatch} from "../../app/store";
 import {Navigate} from "react-router-dom";
 
 type FormikErrorType = {
@@ -25,7 +25,7 @@ type FormValuesType = {
 }
 export const Login = () => {
     const isLogginedIn = useSelector<AppRootStateType, boolean>(state => state.auth.isLoggedIn)
-    const dispatch = useDispatch()
+    const dispatch = useAppDispatch()
     const formik = useFormik({
         initialValues: {
             email: '',
@@ -47,8 +47,16 @@ export const Login = () => {
             return errors
         },
         onSubmit: async (values, formikHelpers: FormikHelpers<FormValuesType>) => {
-            const res = await dispatch(loginTC(values))
-            formikHelpers.setFieldError('email', 'fakeError')
+            const action = await dispatch(loginTC(values))
+
+            if (loginTC.rejected.match(action)) {
+                if (action.payload?.fieldsError?.length) {
+                    const error = action.payload?.fieldsError[0]
+                    formikHelpers.setFieldError(error.field, error.error)
+                }
+
+            }
+
             formik.resetForm()
         },
     })
