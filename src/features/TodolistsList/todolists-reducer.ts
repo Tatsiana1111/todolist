@@ -1,12 +1,22 @@
 import {todolistsAPI, TodolistType} from '../../api/todolists-api'
 import {RequestStatusType, setAppStatusAC} from '../../app/app-reducer'
 import {Dispatch} from "redux";
-import {createSlice, PayloadAction} from "@reduxjs/toolkit";
+import {createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
 
-const initialState: Array<TodolistDomainType> = []
+
+export const fetchTodolistsTC = createAsyncThunk('todolist/fetchTodolist', async (param, {dispatch}) => {
+    dispatch(setAppStatusAC({status: 'loading'}))
+    const res = await todolistsAPI.getTodolists()
+    dispatch(setAppStatusAC({status: 'succeeded'}))
+
+    return {todolists: res.data}
+
+})
+
+
 const slice = createSlice({
-    name: 'TODOLIST',
-    initialState,
+    name: 'todolist',
+    initialState: [] as TodolistDomainType[],
     reducers: {
         removeTodolistAC: (state, action: PayloadAction<{ id: string }>) => {
             const index = state.findIndex(todolist => todolist.id === action.payload.id)
@@ -30,13 +40,14 @@ const slice = createSlice({
             const index = state.findIndex(todolist => todolist.id === action.payload.id)
             state[index].entityStatus = action.payload.status
         },
-        setTodolistsAC: (state, action: PayloadAction<{ todolists: Array<TodolistType> }>) => {
+    },
+    extraReducers: builder => {
+        builder.addCase(fetchTodolistsTC.fulfilled, (state, action) => {
             return action.payload.todolists.map(tl => ({...tl, filter: 'all', entityStatus: 'idle'}))
-        },
+        })
     }
 })
 export const {
-    setTodolistsAC,
     changeTodolistEntityStatusAC,
     changeTodolistFilterAC,
     changeTodolistTitleAC,
@@ -47,16 +58,7 @@ export const {
 export const todolistsReducer = slice.reducer
 
 // thunks
-export const fetchTodolistsTC = () => {
-    return (dispatch: Dispatch) => {
-        dispatch(setAppStatusAC({status: 'loading'}))
-        todolistsAPI.getTodolists()
-            .then((res) => {
-                dispatch(setTodolistsAC({todolists: res.data}))
-                dispatch(setAppStatusAC({status: 'succeeded'}))
-            })
-    }
-}
+
 export const removeTodolistTC = (todolistId: string) => {
     return (dispatch: Dispatch) => {
         //изменим глобальный статус приложения, чтобы вверху полоса побежала
@@ -90,10 +92,6 @@ export const changeTodolistTitleTC = (id: string, title: string) => {
     }
 }
 
-// types
-export type AddTodolistActionType = ReturnType<typeof addTodolistAC>;
-export type RemoveTodolistActionType = ReturnType<typeof removeTodolistAC>;
-export type SetTodolistsActionType = ReturnType<typeof setTodolistsAC>;
 
 export type FilterValuesType = 'all' | 'active' | 'completed';
 export type TodolistDomainType = TodolistType & {
