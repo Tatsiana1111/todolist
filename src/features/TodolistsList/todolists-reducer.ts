@@ -117,7 +117,7 @@ export const slice = createSlice({
 })
 export const {
     changeTodolistEntityStatus,
-    changeTodolistFilter
+    
 } = slice.actions
 
 export const todolistsReducer = slice.reducer

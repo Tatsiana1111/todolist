@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="feat(lesson 20): refactoring">
+    <list default="true" id="ad70a98c-7f6e-40f2-8eaa-19f927185e17" name="Changes" comment="feat(lesson 20): refactoring p.2">
+      <change afterPath="$PROJECT_DIR$/public/screenshots/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Task/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Task/Task.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-actions.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,27 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/todolist&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/todolist/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\todolist\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "D:/todolist",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/todolist/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "rearrange.code.on.save": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "D:\\todolist\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\todolist\src\app" />
@@ -94,7 +92,7 @@
       <recent name="D:\todolist\src\features\TodolistsList\tasks-actions.ts" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.tasks should be added for todolist">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="tasks should be added for todolist" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -106,6 +104,16 @@
       <test-names>
         <test-name value="tasks should be added for todolist" />
       </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -130,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.tasks should be added for todolist" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +209,28 @@
       <workItem from="1671709996197" duration="97000" />
       <workItem from="1671710338890" duration="8529000" />
       <workItem from="1671781174759" duration="14214000" />
-      <workItem from="1671958226790" duration="7062000" />
+      <workItem from="1671958226790" duration="7209000" />
+      <workItem from="1671971200623" duration="984000" />
+      <workItem from="1673106816775" duration="2402000" />
+      <workItem from="1673265789836" duration="784000" />
+      <workItem from="1673272894451" duration="3458000" />
+      <workItem from="1673607090267" duration="1311000" />
+      <workItem from="1674217486675" duration="1235000" />
+      <workItem from="1674220421766" duration="239000" />
+      <workItem from="1674295328520" duration="798000" />
+      <workItem from="1674307130514" duration="596000" />
+      <workItem from="1674406655181" duration="8000" />
+      <workItem from="1674407397941" duration="1638000" />
+      <workItem from="1674453314783" duration="4689000" />
+      <workItem from="1674461067608" duration="2588000" />
+      <workItem from="1674467566333" duration="933000" />
+      <workItem from="1674474803923" duration="1591000" />
+      <workItem from="1674640999469" duration="2734000" />
+      <workItem from="1674650805534" duration="1293000" />
+      <workItem from="1675330490555" duration="293000" />
+      <workItem from="1676548903477" duration="18000" />
+      <workItem from="1676882830617" duration="1427000" />
+      <workItem from="1677144323005" duration="3156000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add lesson 15 *part">
       <created>1667475767402</created>
@@ -322,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671807205738</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat(lesson 20): refactoring p.2">
+      <created>1671965748679</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671965748679</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +393,7 @@
     <MESSAGE value="feat(lesson 19.2)" />
     <MESSAGE value="feat(lesson 19.2): add full lesson" />
     <MESSAGE value="feat(lesson 20): refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(lesson 20): refactoring" />
+    <MESSAGE value="feat(lesson 20): refactoring p.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(lesson 20): refactoring p.2" />
   </component>
 </project>
